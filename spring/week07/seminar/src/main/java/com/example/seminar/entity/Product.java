@@ -45,4 +45,11 @@ public class Product extends BaseEntity{
         this.producers.add(producer);
     }
 
+    public Product(String name, Integer price, Integer stock) {
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
+    }
+
+
 }
